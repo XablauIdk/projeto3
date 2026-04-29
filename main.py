@@ -1,7 +1,6 @@
 from steampy import SteamPy
 from menu import menu
 
-
 sistema = SteamPy()
 sistema.carregar_jogos('dataset.csv')
 sistema.carregar_backlog()
